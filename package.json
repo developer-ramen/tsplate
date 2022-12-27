@@ -15,14 +15,14 @@
 		"pre-commit": "npm run format && npx eslint src/*.ts --fix && npm test run && npm i"
 	},
 	"dependencies": {
-		"@types/node": "^18.11.9",
+		"@types/node": "^18.11.18",
 		"lodash-es": "^4.17.21",
 		"prettier": "^2.7.1",
 		"vitest": "^0.25.3"
 	},
 	"devDependencies": {
 		"@types/lodash-es": "^4.17.6",
-		"@types/node": "^18.11.9",
+		"@types/node": "^18.11.18",
 		"@typescript-eslint/eslint-plugin": "^5.44.0",
 		"@typescript-eslint/parser": "^5.44.0",
 		"@vitest/coverage-istanbul": "^0.25.3",
